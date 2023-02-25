@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	height: 100vh;
+	background-image: url('../img/bekgron.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 11px;
+}
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+h1{
+	background-color: whitesmoke;
+}
+.contact-box{
+	background-color: #fff;
+	display: flex;
+}
+.contact-kiri{
+	flex-basis: 60%;
+	padding: 40px 60px;
+}
+.contact-kanan{
+	flex-basis: 40%;
+	padding: 40px 60px;
+	background-color: #42DFFF;
+	padding: 40px;
+	color: black;
+}
+.garis-input{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.garis-input .input-grup{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+}
+button{
+	background-color: #42DFFF;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+h3 .contact-kiri{
+	color: #42DFFF;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+tr td{
+	padding-top: 20px;
+}
+tr td:first-child{
+	padding-right: 20px;
+
+}
